@@ -1,0 +1,157 @@
+body { 
+    font-family: 'Inter';
+   background: center / cover no-repeat url("./images/matt-gross.jpg"),
+            #eee;
+    color: #FFFFFF;
+    font-style: normal;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 21px 35px 24px;
+    max-width: 317px;
+    background: #1A1B21;
+       border-radius: 10px 10px 0px 0px ;
+}
+
+.main--photo {
+    height: 317px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+
+.title--info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main--title {   
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #c9a3ff;
+    line-height: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    color: white;
+}
+
+.website--link {
+    color: #c9a3ff;
+    text-decoration: none;
+    font-size: 10px;   
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+/* or 24px */
+
+
+color: #F5F5F5;
+}
+
+.buttons--container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons--container button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0;
+    min-width: 45%;
+    font-size: 14px;
+    font-weight: 500;
+
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.buttons--container button i {
+    margin-right: 10px;
+}
+.buttons--container .email--btn {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #1E1F26;
+}
+
+.buttons--container .email--btn {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #1E1F26;
+}
+
+.buttons--container .linkedin--btn {
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    color: white;   
+}
+.buttons--container .fa-linkedin-in {
+  
+    color: white;   
+}
+
+
+.main--facts  {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+footer  {
+    background: #161619;
+     
+    border-radius: 0px 0px 10px 10px;
+    min-height: 64px;
+    display: flex; justify-content: space-evenly;
+}
+footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 15px;
+    list-style: none;
+    
+}
+footer ul li{
+    width: 20%;
+}
+
+footer ul li a {
+    font-size: 15px;
+    color: #918E9B;
+    
+}
